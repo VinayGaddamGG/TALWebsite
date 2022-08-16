@@ -87,7 +87,7 @@ body{
     
     font-size: 25;
     position: relative;
-    left: 20%;
+    left: 18%;
     width: 67%;
     margin-top: 30%;
     text-align: center;
@@ -135,7 +135,7 @@ body{
   .slide-question{
     font-size: 25px;
     position: absolute;
-    left: 45.5%;
+    left: 45.2%;
     margin-top: 10%;
   }
   .slide-question-1{
@@ -150,31 +150,17 @@ body{
     left: 47.6%;
     margin-top:600px;
   }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    
-    background-color: #bbb;
-    border-radius: 50%;
+  .arrow{
+    border: solid  rgba(255, 255, 255, 0.922);
+    border-width: 0 3px 3px 0;
     display: inline-block;
-    transition: background-color 0.6s ease;
-    margin-right: 10px;
+    padding: 1%;
+    
+  }
+  .right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
   }
   
-  .active, .dot:hover {
-    background-color: #717171;
-  }
   
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
   
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }

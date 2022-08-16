@@ -45,3 +45,22 @@ body{
     font-size: 15;
     
 }
+
+  
+  
+  
+  
+  .p1{
+    position: relative;
+    width: 9%;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(206, 31, 31);
+    font-size: xx-large;
+    color: #fff9f9;
+    z-index: 999;
+    margin-top: -27%;
+    margin-left: 8%;
+    font-weight: bold;
+   
+  
+  }
