@@ -44,23 +44,43 @@ body{
     background-color: rgb(17, 16, 16);
     font-size: 15;
     
-}
-
-  
-  
-  
-  
+}  
   .p1{
     position: relative;
     width: 9%;
     font-weight: bold;
-    border-bottom: 2px solid rgb(206, 31, 31);
+    border-bottom: 3px solid rgb(206, 31, 31);
     font-size: xx-large;
     color: #fff9f9;
     z-index: 999;
-    margin-top: -27%;
+    margin-top: -65%;
     margin-left: 8%;
     font-weight: bold;
-   
-  
   }
+  .current-project{
+    margin-top: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .project-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .past-projects{
+    display: flex;
+    flex-direction: column;
+  }
+  .projects{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+  }
+  .projects-text{
+    display: flex;
+    flex-direction: column;
+  }
+
+
