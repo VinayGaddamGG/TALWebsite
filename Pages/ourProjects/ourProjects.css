@@ -11,40 +11,40 @@ body{
     display: flex;
     flex-direction: row;
     background-color: rgb(17, 16, 16);
+    padding-bottom: 1%;
 
 }
+
 
 
 .TAL-logo{
-    height: auto;
-    width: auto;
-    margin-top: 1.5%;
-    margin-left: 10%;
-    margin-bottom: 8%;
-    margin-right: 13%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-bottom: 8%;
 }
 
 .about-us, .our-projects, .our-testimonials{
-    height: auto;
-    width: auto;
-    margin-top: 1.5%;
-    margin-left: 8%;
-    margin-bottom: 1%;
-    font-family:'Times New Roman', Times, serif;
+  height: auto;
+  width: auto;
+  margin-top: 2.2%;
+  margin-left: 6%;
+  margin-bottom: 1%;
+  font-family:'Times New Roman', Times, serif;
 
 }
 
 .donate-now{
-    height: 76%;
-    width: 10%;
-    margin-top: 0.5%;
-    margin-left: 8%;
-    margin-bottom: 1%;
-    border: 3px solid white;
-    background-color: rgb(17, 16, 16);
-    font-size: 15;
-    
-}  
+  height: 76%;
+  width: 10%;
+  margin-top: 1%;
+  margin-left: 7%;
+  margin-bottom: 1%;
+  border: 3px solid white;
+  background-color: rgb(17, 16, 16);
+  font-size: 15;
+  
+}
   .p1{
     position: relative;
     width: 9%;
@@ -81,6 +81,16 @@ body{
   .projects-text{
     display: flex;
     flex-direction: column;
+  }
+  .arrow{
+    border: solid  rgb(173, 46, 46);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
   }
 
 
