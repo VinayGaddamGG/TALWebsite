@@ -133,7 +133,7 @@ body{
  
 }
 .profile-1-pic{
-  background-image: url("file:///Users/vinaygaddam/Documents/GitHub/TALWebsite/images/tarunImage.jpg");
+  background-image: url("./images/tarunImage.jpg");
   background-size: cover;
   background-position: 20% 27%;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@ display: flex;
 flex-direction: column;
 }
 .profile-2-pic{
-  background-image: url("file:///Users/vinaygaddam/Documents/GitHub/TALWebsite/images/anirdeshImage.jpg");
+  background-image: url("./images/anirdeshImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 80%;
