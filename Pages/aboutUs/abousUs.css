@@ -11,24 +11,26 @@ body{
   display: flex;
   flex-direction: row;
   background-color: rgb(17, 16, 16);
+  padding-bottom: 1%;
 
 }
 
 
 .TAL-logo{
+  display: flex;
+  flex-direction: row;
   height: auto;
   width: auto;
-  margin-top: 1.5%;
   margin-left: 10%;
   margin-bottom: 8%;
-  margin-right: 13%;
+ 
 }
 
 .about-us, .our-projects, .our-testimonials{
   height: auto;
   width: auto;
-  margin-top: 1.5%;
-  margin-left: 8%;
+  margin-top: 2.2%;
+  margin-left: 6%;
   margin-bottom: 1%;
   font-family:'Times New Roman', Times, serif;
 
@@ -37,8 +39,8 @@ body{
 .donate-now{
   height: 76%;
   width: 10%;
-  margin-top: 0.5%;
-  margin-left: 8%;
+  margin-top: 1%;
+  margin-left: 7%;
   margin-bottom: 1%;
   border: 3px solid white;
   background-color: rgb(17, 16, 16);
@@ -131,7 +133,7 @@ body{
  
 }
 .profile-1-pic{
-  background-image: url("file:///Users/venkatgaddam/Desktop/TALWebsite/images/tarunImage.jpg");
+  background-image: url("file:///Users/vinaygaddam/Documents/GitHub/TALWebsite/images/tarunImage.jpg");
   background-size: cover;
   background-position: 20% 27%;
   background-repeat: no-repeat;
@@ -146,7 +148,7 @@ display: flex;
 flex-direction: column;
 }
 .profile-2-pic{
-  background-image: url("file:///Users/venkatgaddam/Desktop/TALWebsite/images/anirdeshImage.jpg");
+  background-image: url("file:///Users/vinaygaddam/Documents/GitHub/TALWebsite/images/anirdeshImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 80%;
