@@ -199,4 +199,20 @@ body{
   display: flex;
   flex-direction: column;
 }
- 
+
+.World-kindness-day{
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.countdown{
+  text-align: center;
+  font-size: 55;
+  margin-left: 3%;
+}
+
+.WKD-info{
+  display: flex;
+  flex-direction: row;
+}
