@@ -136,6 +136,14 @@ body{
   
 }
 
+.div-around-pictures{
+  border-top:  2px solid red;
+  margin-left: 11.5%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
 .our-mission-text{
   font-weight: bold;
   font-size: 35;
@@ -192,7 +200,7 @@ body{
 .facts{
   display: flex;
   flex-direction: row;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
 }
 
 .facts-text{
@@ -204,6 +212,7 @@ body{
   margin-top: 8%;
   display: flex;
   flex-direction: column;
+  padding-bottom: 10%;
 }
 
 .countdown{
