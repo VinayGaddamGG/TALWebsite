@@ -23,7 +23,35 @@ body{
   width: auto;
   margin-left: 10%;
   margin-bottom: 8%;
+  color: white; 
+  width: 40%;
  
+}
+
+.homePage{
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.922)
+}
+
+.logo-1{
+  align-self: center; 
+  width: 27%; 
+  background-color: black;
+}
+
+.aboutUs{
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.922)
+}
+
+.ourProjects{
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.922)
+}
+
+.donateNow{
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.922)
 }
 
 .about-us, .our-projects, .our-testimonials{
